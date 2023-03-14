@@ -1,0 +1,23 @@
+{
+  "name": "kakao",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "lerna": "^6.5.1",
+    "sequelize": "^6.29.3",
+    "sqlite3": "^5.1.5",
+    "uuid": "^9.0.0"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/uuid": "^9.0.1"
+  }
+}
